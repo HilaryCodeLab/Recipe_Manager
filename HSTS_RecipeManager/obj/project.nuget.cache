@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FxsCdpvglx4v2/GedjHJikaY6zzqgF2429yfmWJGqcv9cQEWa033ZK0Ioc+QQDt7a1OeL6GiiL9a6aLEaEt6Hg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\HSTS_RecipeManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hillary and Garth\\.nuget\\packages\\mstest.testadapter\\2.1.2\\mstest.testadapter.2.1.2.nupkg.sha512",
+    "C:\\Users\\Hillary and Garth\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512",
+    "C:\\Users\\Hillary and Garth\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hillary and Garth\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hillary and Garth\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hillary and Garth\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

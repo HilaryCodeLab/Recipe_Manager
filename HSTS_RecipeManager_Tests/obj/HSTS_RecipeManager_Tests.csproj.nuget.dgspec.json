@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager_Tests\\HSTS_RecipeManager_Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\HSTS_RecipeManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\HSTS_RecipeManager.csproj",
+        "projectName": "HSTS_RecipeManager",
+        "projectPath": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\HSTS_RecipeManager.csproj",
+        "packagesPath": "C:\\Users\\Hillary and Garth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hillary and Garth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager_Tests\\HSTS_RecipeManager_Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager_Tests\\HSTS_RecipeManager_Tests.csproj",
+        "projectName": "HSTS_RecipeManager_Tests",
+        "projectPath": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager_Tests\\HSTS_RecipeManager_Tests.csproj",
+        "packagesPath": "C:\\Users\\Hillary and Garth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager_Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hillary and Garth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\HSTS_RecipeManager.csproj": {
+                "projectPath": "C:\\Users\\Hillary and Garth\\source\\repos\\HSTS_RecipeManager\\HSTS_RecipeManager\\HSTS_RecipeManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
