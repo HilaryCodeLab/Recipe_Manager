@@ -320,10 +320,6 @@ namespace HSTS_RecipeManager
                         lbSteps.Items.Add((string)dtData.Rows[0][6]);
                     }
                     
-                   
-                    
-                    //lbSteps.Items.Add(dtData.Rows[0][6].ToString());
-                    //txtMethods.Text = dtData.Rows[0][6].ToString();
 
                 }
                 else
@@ -394,26 +390,6 @@ namespace HSTS_RecipeManager
         }
 
 
-        private void Refresh_Result()
-        {
-            if(Results == null)
-            {
-                Results = new List<MyRecipe>();
-            }
-            else
-            {
-                dgvList.DataSource = Results;
-                CollectionViewSource.GetDefaultView(dgvList.DataSource).Refresh();
-            }
-        }
-
-        private void Refresh_Result_method()
-        {
-            
-            CollectionViewSource.GetDefaultView(lbSteps.DataSource).Refresh();
-            
-        }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtSearch.Text = "";
@@ -422,10 +398,6 @@ namespace HSTS_RecipeManager
             
         }
 
-        private void txtMethods_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnNewStep_Click(object sender, EventArgs e)
         {
@@ -629,11 +601,6 @@ namespace HSTS_RecipeManager
 
         }
 
-
-        private void lvFavourite_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
-        }
 
         private void lbSteps_SelectedIndexChanged(object sender, EventArgs e)
         {

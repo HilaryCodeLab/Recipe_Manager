@@ -156,7 +156,6 @@ namespace HSTS_RecipeManager
             this.txtMethods.Name = "txtMethods";
             this.txtMethods.Size = new System.Drawing.Size(256, 20);
             this.txtMethods.TabIndex = 1;
-            this.txtMethods.TextChanged += new System.EventHandler(this.txtMethods_TextChanged);
             // 
             // txtIngredients
             // 
@@ -308,7 +307,6 @@ namespace HSTS_RecipeManager
             this.lvFavourite.Size = new System.Drawing.Size(207, 368);
             this.lvFavourite.TabIndex = 11;
             this.lvFavourite.UseCompatibleStateImageBehavior = false;
-            this.lvFavourite.SelectedIndexChanged += new System.EventHandler(this.lvFavourite_SelectedIndexChanged);
             // 
             // lblFav
             // 
